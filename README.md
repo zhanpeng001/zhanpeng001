@@ -28,37 +28,6 @@ Architecture  Layered design | API-first development | Automation
 
 ---
 
-## Tech Arsenal
-
-<div align="center">
-
-### Frontend
-![Vue](https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### Backend
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-### Database
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-### CI/CD & DevOps
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated_Pipelines-22c55e?style=for-the-badge)
-
-</div>
-
----
-
 ## CI/CD Mindset
 
 I care about building software that can move from code to production with confidence.
@@ -108,10 +77,77 @@ What I focus on:
 
 ## Current Focus
 
-- Building stronger **CI/CD pipelines** with automated testing and repeatable deployments.
-- Improving backend systems with **Go, Python, clean APIs, and layered architecture**.
-- Creating polished frontend experiences with **Vue, TypeScript, and Vite**.
-- Learning how to integrate **AI and automation** into practical developer workflows.
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/zhanpeng001/GYM-Helper">GYM-Helper</a></h3>
+      <p>A Vue-based side project focused on building a cleaner fitness helper experience.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Vue-41B883?style=flat-square&logo=vue.js&logoColor=white" alt="Vue" />
+        <img src="https://img.shields.io/badge/Frontend-Project-2563EB?style=flat-square" alt="Frontend project" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/zhanpeng001/Image-Studio-Pro">Image-Studio-Pro</a></h3>
+      <p>A JavaScript image-tooling project for experimenting with practical browser-based editing workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Image_Tooling-Project-0EA5E9?style=flat-square" alt="Image tooling project" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Tech Arsenal
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>Application Stack</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Vue-0F172A?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue" />
+        <img src="https://img.shields.io/badge/TypeScript-0F172A?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/JavaScript-0F172A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Vite-0F172A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
+        <img src="https://img.shields.io/badge/Go-0F172A?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go" />
+        <img src="https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+        <img src="https://img.shields.io/badge/Java-0F172A?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>Data Layer</h3>
+      <p>
+        <img src="https://img.shields.io/badge/MySQL-0F172A?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL" />
+        <img src="https://img.shields.io/badge/SQLite-0F172A?style=for-the-badge&logo=sqlite&logoColor=003B57" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Oracle-0F172A?style=for-the-badge&logo=oracle&logoColor=F80000" alt="Oracle" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>Cloud & Edge</h3>
+      <p>
+        <img src="https://img.shields.io/badge/AWS-0F172A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
+        <img src="https://img.shields.io/badge/Google_Cloud-0F172A?style=for-the-badge&logo=googlecloud&logoColor=4285F4" alt="Google Cloud" />
+        <img src="https://img.shields.io/badge/Azure-0F172A?style=for-the-badge&logo=microsoftazure&logoColor=0078D4" alt="Azure" />
+        <img src="https://img.shields.io/badge/Cloudflare-0F172A?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>CI/CD & Infrastructure</h3>
+      <p>
+        <img src="https://img.shields.io/badge/GitHub_Actions-0F172A?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+        <img src="https://img.shields.io/badge/Docker-0F172A?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+        <img src="https://img.shields.io/badge/Kubernetes-0F172A?style=for-the-badge&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
+        <img src="https://img.shields.io/badge/Terraform-0F172A?style=for-the-badge&logo=terraform&logoColor=844FBA" alt="Terraform" />
+        <img src="https://img.shields.io/badge/Linux-0F172A?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
+        <img src="https://img.shields.io/badge/Nginx-0F172A?style=for-the-badge&logo=nginx&logoColor=009639" alt="Nginx" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
