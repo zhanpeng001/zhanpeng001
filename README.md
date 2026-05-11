@@ -114,9 +114,9 @@ What I focus on:
 
 <div align="center">
 
-### 2026 Contributions
+### 2026 Contributions: Jan to Dec
 
-[![2026 contribution activity](https://github.pumbas.net/api/contributions/zhanpeng001?days=131&colour=2563EB&bgColour=0F172A&dotColour=93C5FD&borderRadius=8)](https://github.com/zhanpeng001?from=2026-01-01&to=2026-12-31)
+[![2026 GitHub contribution calendar](assets/github-contributions-2026.svg)](https://github.com/zhanpeng001?from=2026-01-01&to=2026-12-31)
 
 [![View 2026 Activity](https://img.shields.io/badge/View_2026_Contribution_Activity-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zhanpeng001?from=2026-01-01&to=2026-12-31)
 
