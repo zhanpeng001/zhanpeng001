@@ -97,12 +97,5 @@
     <text x="838" y="158" text-anchor="middle" class="small">monitor</text>
   </g>
 
-  <circle cx="115" cy="145" r="7" fill="#38bdf8" class="pulse"/>
-  <circle cx="264" cy="145" r="7" fill="#22c55e" class="pulse"/>
-  <circle cx="413" cy="145" r="7" fill="#38bdf8" class="pulse"/>
-  <circle cx="562" cy="145" r="7" fill="#22c55e" class="pulse"/>
-  <circle cx="711" cy="145" r="7" fill="#38bdf8" class="pulse"/>
-  <circle cx="838" cy="145" r="7" fill="#22c55e" class="pulse"/>
-
   <text x="42" y="224" class="small">Pipeline-first development with GitHub Actions, Docker-ready structure, and repeatable release steps.</text>
 </svg>
