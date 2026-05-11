@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">Animated CI/CD pipeline</title>
+  <desc id="desc">An animated pipeline showing code moving through test, build, package, deploy, and monitor stages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title { fill: #e0f2fe; font: 700 24px "Segoe UI", Arial, sans-serif; }
+      .subtitle { fill: #93c5fd; font: 500 13px "Segoe UI", Arial, sans-serif; letter-spacing: .4px; }
+      .label { fill: #f8fafc; font: 700 15px "Segoe UI", Arial, sans-serif; }
+      .small { fill: #94a3b8; font: 500 11px "Segoe UI", Arial, sans-serif; }
+      .card { fill: url(#card); stroke: #1e40af; stroke-width: 1.2; }
+      .track { stroke: #1e293b; stroke-width: 8; stroke-linecap: round; }
+      .active { stroke: url(#line); stroke-width: 5; stroke-linecap: round; stroke-dasharray: 80 620; animation: flow 4s linear infinite; }
+      .pulse { filter: url(#glow); animation: pulse 1.6s ease-in-out infinite; }
+      .float { animation: float 3.2s ease-in-out infinite; }
+      .float2 { animation: float 3.2s ease-in-out infinite; animation-delay: .45s; }
+      .float3 { animation: float 3.2s ease-in-out infinite; animation-delay: .9s; }
+      @keyframes flow {
+        from { stroke-dashoffset: 700; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: .55; r: 7; }
+        50% { opacity: 1; r: 10; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-7px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="920" height="260" rx="24" fill="url(#bg)"/>
+  <circle cx="95" cy="30" r="80" fill="#1d4ed8" opacity=".16"/>
+  <circle cx="810" cy="224" r="105" fill="#22c55e" opacity=".12"/>
+  <path d="M40 188 C190 118, 265 238, 420 166 S675 88, 880 138" fill="none" stroke="#0ea5e9" opacity=".12" stroke-width="34"/>
+
+  <text x="42" y="48" class="title">CI/CD Mindset</text>
+  <text x="42" y="72" class="subtitle">Automate checks. Build repeatably. Deploy with confidence.</text>
+
+  <line x1="115" y1="145" x2="805" y2="145" class="track"/>
+  <line x1="115" y1="145" x2="805" y2="145" class="active"/>
+
+  <g class="float">
+    <rect x="52" y="104" width="126" height="82" rx="17" class="card"/>
+    <text x="115" y="136" text-anchor="middle" class="label">Code</text>
+    <text x="115" y="158" text-anchor="middle" class="small">commit</text>
+  </g>
+
+  <g class="float2">
+    <rect x="201" y="104" width="126" height="82" rx="17" class="card"/>
+    <text x="264" y="136" text-anchor="middle" class="label">Test</text>
+    <text x="264" y="158" text-anchor="middle" class="small">quality gate</text>
+  </g>
+
+  <g class="float3">
+    <rect x="350" y="104" width="126" height="82" rx="17" class="card"/>
+    <text x="413" y="136" text-anchor="middle" class="label">Build</text>
+    <text x="413" y="158" text-anchor="middle" class="small">artifact</text>
+  </g>
+
+  <g class="float">
+    <rect x="499" y="104" width="126" height="82" rx="17" class="card"/>
+    <text x="562" y="136" text-anchor="middle" class="label">Package</text>
+    <text x="562" y="158" text-anchor="middle" class="small">container</text>
+  </g>
+
+  <g class="float2">
+    <rect x="648" y="104" width="126" height="82" rx="17" class="card"/>
+    <text x="711" y="136" text-anchor="middle" class="label">Deploy</text>
+    <text x="711" y="158" text-anchor="middle" class="small">release</text>
+  </g>
+
+  <g class="float3">
+    <rect x="797" y="104" width="82" height="82" rx="17" class="card"/>
+    <text x="838" y="136" text-anchor="middle" class="label">Watch</text>
+    <text x="838" y="158" text-anchor="middle" class="small">monitor</text>
+  </g>
+
+  <circle cx="115" cy="145" r="7" fill="#38bdf8" class="pulse"/>
+  <circle cx="264" cy="145" r="7" fill="#22c55e" class="pulse"/>
+  <circle cx="413" cy="145" r="7" fill="#38bdf8" class="pulse"/>
+  <circle cx="562" cy="145" r="7" fill="#22c55e" class="pulse"/>
+  <circle cx="711" cy="145" r="7" fill="#38bdf8" class="pulse"/>
+  <circle cx="838" cy="145" r="7" fill="#22c55e" class="pulse"/>
+
+  <text x="42" y="224" class="small">Pipeline-first development with GitHub Actions, Docker-ready structure, and repeatable release steps.</text>
+</svg>

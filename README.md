@@ -63,15 +63,11 @@ Architecture  Layered design | API-first development | Automation
 
 I care about building software that can move from code to production with confidence.
 
-```mermaid
-flowchart LR
-    A[Code] --> B[Git Commit]
-    B --> C[Automated Tests]
-    C --> D[Build Artifact]
-    D --> E[Docker Image]
-    E --> F[Deploy]
-    F --> G[Monitor & Improve]
-```
+<div align="center">
+
+![Animated CI/CD pipeline](assets/cicd-pipeline.svg)
+
+</div>
 
 What I focus on:
 
