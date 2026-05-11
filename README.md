@@ -1,8 +1,9 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:0ea5e9,100:22c55e&text=Zhanpeng%20%28Justin%29&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20CI%2FCD%20%26%20Automation%20Builder&descAlignY=58&animation=fadeIn)
+<h1>Hi, I'm Zhanpeng (Justin)</h1>
+<h3>Full-Stack Developer | CI/CD & Automation Builder</h3>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=700&color=22C55E&center=true&vCenter=true&width=900&lines=I+build+full-stack+apps+that+ship.;Vue+frontends.+Go+and+Python+backends.;CI%2FCD+pipelines.+Automation.+Clean+architecture.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=700&color=1D4ED8&center=true&vCenter=true&width=900&lines=I+build+full-stack+apps+that+ship.;Vue+frontends.+Go+and+Python+backends.;CI%2FCD+pipelines.+Automation.+Clean+architecture.)](https://git.io/typing-svg)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=zhanpeng001&style=for-the-badge&color=0ea5e9)](https://github.com/zhanpeng001)
 [![GitHub Followers](https://img.shields.io/github/followers/zhanpeng001?style=for-the-badge&logo=github&color=22c55e)](https://github.com/zhanpeng001?tab=followers)
@@ -113,11 +114,11 @@ What I focus on:
 
 <div align="center">
 
-![Zhanpeng's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zhanpeng001&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github)
+### 2026 Contributions
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zhanpeng001&layout=compact&theme=tokyonight&hide_border=true)
+[![2026 contribution activity](https://github.pumbas.net/api/contributions/zhanpeng001?days=131&colour=2563EB&bgColour=0F172A&dotColour=93C5FD&borderRadius=8)](https://github.com/zhanpeng001?from=2026-01-01&to=2026-12-31)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=zhanpeng001&theme=tokyonight&hide_border=true)
+[![View 2026 Activity](https://img.shields.io/badge/View_2026_Contribution_Activity-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zhanpeng001?from=2026-01-01&to=2026-12-31)
 
 </div>
 
@@ -145,8 +146,6 @@ What I focus on:
 ---
 
 <div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:22c55e,50:0ea5e9,100:0f172a)
 
 **"Good code is not just about what works. It is about what lasts, ships, and keeps improving."**
 
