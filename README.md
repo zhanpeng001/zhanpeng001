@@ -136,6 +136,8 @@ What I focus on:
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zhanpeng-yin-07701b262?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yinzhanpengyzp@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-zhanpeng001-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zhanpeng001)
 
 </div>
